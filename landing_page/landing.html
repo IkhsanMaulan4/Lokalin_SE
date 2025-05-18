@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lokalin - Indonesian Traditional Marketplace</title>
+    <link rel="stylesheet" href="./landing.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="logo">Lokalin</div>
+        <div class="categories-dropdown">
+            <button class="categories-btn">
+                <i class="fa-solid fa-bars"></i> Categories
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Food and Beverages</a>
+                <a href="#">Home and Living</a>
+                <a href="#">Art and Collection</a>
+                <a href="#">Clothing</a>
+                <a href="#">Accessories</a>
+                <a href="#">Toys and Games</a>
+            </div>
+        </div>
+        <div class="search-container">
+            <input type="text" placeholder="search...">
+            <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="nav-icons">
+            <a href="#" class="icon-link"><i class="fa-regular fa-heart"></i></a>
+            <a href="#" class="icon-link"><i class="fa-solid fa-cart-shopping"></i></a>
+            <a href="#" class="icon-link"><i class="fa-regular fa-bell"></i></a>
+            <a href="#" class="icon-link"><i class="fa-regular fa-user"></i></a>
+        </div>
+    </nav>
+
+    <main>
+        <section class="popular-categories">
+            <h2>Shop our most popular categories</h2>
+            <div class="category-cards">
+                <div class="category-card">
+                    <div class="category-img">
+                        <img src="/assets/pictures/food2.jpg" alt="Makanan Khas Nusantara">
+                    </div>
+                    <h3>Makanan Khas Nusantara</h3>
+                </div>
+                <div class="category-card">
+                    <div class="category-img">
+                        <img src="/assets/pictures/kerajinan-budaya.jpg" alt="Kerajinan Tradisional">
+                    </div>
+                    <h3>Kerajinan Tradisional</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="deals-section">
+            <div class="deals-header">
+                <h2>Today's Big Deals</h2>
+                <div class="timer">
+                    <i class="fa-regular fa-clock"></i> Fresh deals in <span id="countdown">00:00:00</span>
+                </div>
+                <div class="nav-arrows">
+                    <button class="arrow-left"><i class="fa-solid fa-chevron-left"></i></button>
+                    <button class="arrow-right"><i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+            </div>
+            
+            <div class="deals-slider">
+                <div class="deal-card">
+                    <img src="/assets/pictures/pexels-chanwalrus-958545.jpg" alt="Gambar makanan 1">
+                    <div class="deal-info">
+                        <h3>Makanan Tradisional Bundle 1</h3>
+                        <p>Rp 75.000</p>
+                    </div>
+                </div>
+                <div class="deal-card">
+                    <img src="/assets/pictures/batik.jpg" alt="Gambar makanan 2">
+                    <div class="deal-info">
+                        <h3>Batik Tradisional</h3>
+                        <p>Rp 250.000</p>
+                    </div>
+                </div>
+                <div class="deal-card">
+                    <img src="/assets/pictures/food2.jpg" alt="Gambar makanan 3">
+                    <div class="deal-info">
+                        <h3>Nasi kari kampung</h3>
+                        <p>Rp 125.000</p>
+                    </div>
+                </div>
+                <div class="deal-card">
+                    <img src="/assets/pictures/food3.jpg" alt="Gambar makanan 4">
+                    <div class="deal-info">
+                        <h3>Makanan Tradisional Bundle 1</h3>
+                        <p>Rp 150.000</p>
+                    </div>
+                </div>
+                <div class="deal-card">
+                    <img src="/assets/pictures/food3.jpg" alt="Gambar makanan 4">
+                    <div class="deal-info">
+                        <h3>Makanan Tradisional Bundle 1</h3>
+                        <p>Rp 150.000</p>
+                    </div>
+                </div>
+                <div class="deal-card">
+                    <img src="/assets/pictures/food3.jpg" alt="Gambar makanan 4">
+                    <div class="deal-info">
+                        <h3>Makanan Tradisional Bundle 1</h3>
+                        <p>Rp 150.000</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="./landing.js"></script>
+</body>
+</html>
